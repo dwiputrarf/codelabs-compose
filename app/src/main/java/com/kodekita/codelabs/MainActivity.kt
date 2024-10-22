@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.kodekita.codelabs.ui.theme.CodeLabsTheme
+import com.kodekita.codelabs.ui.theme.CodeLabsTypography
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +35,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
+        style = CodeLabsTypography.headlineLarge,
         modifier = modifier
     )
 }
