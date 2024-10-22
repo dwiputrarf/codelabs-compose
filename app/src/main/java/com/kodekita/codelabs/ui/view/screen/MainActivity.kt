@@ -1,4 +1,4 @@
-package com.kodekita.codelabs
+package com.kodekita.codelabs.ui.view.screen
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
